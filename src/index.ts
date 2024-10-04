@@ -38,8 +38,7 @@ async function chooseLevel() {
 }
 
 async function main() {
-  // const targetNumber: number = Math.floor(1 + Math.random() * 100);
-  const targetNumber: number = 2;
+  const targetNumber: number = Math.floor(1 + Math.random() * 100);
   const username = await askingName();
   console.log(`Hello ${username}! Let's play a game`);
   console.log(
