@@ -1,0 +1,26 @@
+{
+  "name": "guesser-cli",
+  "version": "1.0.0",
+  "description": "Guess the number, right in your terminal!",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleOddBoy/guesser-cli.git"
+  },
+  "author": "LittleOddBoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LittleOddBoy/guesser-cli/issues"
+  },
+  "homepage": "https://github.com/LittleOddBoy/guesser-cli#readme",
+  "dependencies": {
+    "@types/node": "^22.7.4",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^11.1.0",
+    "typescript": "^5.6.2"
+  }
+}
