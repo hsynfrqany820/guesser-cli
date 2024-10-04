@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/LittleOddBoy/guesser-cli#readme",
   "dependencies": {
+    "@inquirer/prompts": "^6.0.1",
     "@types/node": "^22.7.4",
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
-    "inquirer": "^11.1.0",
     "typescript": "^5.6.2"
   }
 }
